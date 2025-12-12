@@ -1,0 +1,25 @@
+{
+  "name": "viewmodel",
+  "version": "0.0.1",
+  "description": "A TypeScript libraries to build models that fit nicelly into React useExternalStoreHook.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts src/react.ts --format esm,cjs --dts",
+    "coverage": "vitest run --coverage",
+    "test": "vitest"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Erik Larsson",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.0.15",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.15"
+  },
+  "dependencies": {
+    "zod": "^4.1.13"
+  }
+}
