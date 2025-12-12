@@ -1,5 +1,8 @@
 # Viewmodel
 
+[![CI](https://github.com/ortogonal/viewmodel/actions/workflows/ci.yml/badge.svg)](https://github.com/ortogonal/viewmodel/actions/workflows/ci.yml)
+[![Coverage](https://codecov.io/gh/ortogonal/viewmodel/branch/main/graph/badge.svg)](https://codecov.io/gh/ortogonal/viewmodel)
+
 TypeScript helpers for building view models that play nicely with React and real‑time data sources. It includes generic sources (static, HTTP, websocket), update helpers, and a small React integration layer.
 
 ## Getting Started
